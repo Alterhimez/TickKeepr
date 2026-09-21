@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
+
+plugins {
+    // Lets Gradle download a JDK 8 toolchain automatically if the machine
+    // building this doesn't already have one on its PATH - see
+    // java.toolchain.languageVersion in build.gradle.
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}
+
+rootProject.name = 'tickkeepr'

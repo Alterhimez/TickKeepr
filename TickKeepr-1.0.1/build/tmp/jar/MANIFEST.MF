@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: tickkeeper
+Implementation-Version: 1.0.1
+Specification-Vendor: Alter
+Specification-Title: tickkeeper
+Implementation-Timestamp: 2026-09-19T13:49:23+0200
+Specification-Version: 1
+Implementation-Vendor: Alter
+

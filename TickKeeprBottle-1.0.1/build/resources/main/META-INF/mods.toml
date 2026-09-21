@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="tickkeeperbottle"
+version="1.0.1"
+displayName="TickKeepr: Bottled Time"
+authors="Alter"
+description='''Credits real-world offline time into haoict's Time in a Bottle (tiab) the moment you log back in, the same way TickKeepr catches machines up - so a bottle you were carrying when you logged off has a full tank waiting for you.'''
+
+[[dependencies.tickkeeperbottle]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tickkeeperbottle]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+# Optional, not mandatory: this mod only *acts* on tiab's item when it finds
+# one, purely via registry name + NBT, so it's harmless (just inert) without
+# tiab installed rather than refusing to load.
+[[dependencies.tickkeeperbottle]]
+    modId="tiab"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
