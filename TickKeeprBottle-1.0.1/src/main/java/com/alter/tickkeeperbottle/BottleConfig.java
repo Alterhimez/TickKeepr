@@ -24,7 +24,7 @@ public class BottleConfig {
             .comment(
                     "Percentage of your time away that's discarded before crediting it -",
                     "mirrors TickKeepr's own lazyTaxPercent for blocks.")
-            .defineInRange("offlineLazyTaxPercent", 15.0, 0.0, 1.0.1);
+            .defineInRange("offlineLazyTaxPercent", 15.0, 0.0, 1.0);
 
     public static final ForgeConfigSpec SPEC = BUILDER.build();
 

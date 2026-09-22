@@ -59,7 +59,7 @@ public class OfflineCreditHandler {
 
         double taxPercent = BottleConfig.OFFLINE_LAZY_TAX_PERCENT.get();
         if (taxPercent > 0) {
-            elapsedTicks -= Math.round(elapsedTicks * (taxPercent / 1.0.1));
+            elapsedTicks -= Math.round(elapsedTicks * (taxPercent / 100.0));
         }
         if (elapsedTicks <= 0) {
             return;

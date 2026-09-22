@@ -3609,7 +3609,7 @@ net/minecraft/advancements/criterion/EntityTypePredicate$TagPredicate net/minecr
 	matches (Lnet/minecraft/entity/EntityType;)Z func_209368_a
 	serializeToJson ()Lcom/google/gson/JsonElement; func_209369_a
 net/minecraft/advancements/criterion/EntityTypePredicate$TypePredicate net/minecraft/advancements/criterion/EntityTypePredicate$TypePredicate
-	type field_21.0.1_b
+	type field_218000_b
 	matches (Lnet/minecraft/entity/EntityType;)Z func_209368_a
 	serializeToJson ()Lcom/google/gson/JsonElement; func_209369_a
 net/minecraft/advancements/criterion/FilledBucketTrigger net/minecraft/advancements/criterion/FilledBucketTrigger
@@ -3795,7 +3795,7 @@ net/minecraft/advancements/criterion/LocationPredicate net/minecraft/advancement
 	fromJson (Lcom/google/gson/JsonElement;)Lnet/minecraft/advancements/criterion/LocationPredicate; func_193454_a
 	inBiome (Lnet/minecraft/util/RegistryKey;)Lnet/minecraft/advancements/criterion/LocationPredicate; func_242665_a
 	inDimension (Lnet/minecraft/util/RegistryKey;)Lnet/minecraft/advancements/criterion/LocationPredicate; func_235308_a_
-	inFeature (Lnet/minecraft/world/gen/feature/structure/Structure;)Lnet/minecraft/advancements/criterion/LocationPredicate; func_21.0.1_a
+	inFeature (Lnet/minecraft/world/gen/feature/structure/Structure;)Lnet/minecraft/advancements/criterion/LocationPredicate; func_218020_a
 	lambda$fromJson$1 (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/RegistryKey; func_235310_b_
 	lambda$serializeToJson$0 (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonElement;)V func_235307_a_
 	matches (Lnet/minecraft/world/server/ServerWorld;FFF)Z func_193453_a
@@ -5014,7 +5014,7 @@ net/minecraft/block/BlockState net/minecraft/block/BlockState
 net/minecraft/block/Blocks net/minecraft/block/Blocks
 	ACACIA_BUTTON field_196697_eJ
 	ACACIA_DOOR field_180410_as
-	ACACIA_FENCE field_1.0.15_aT
+	ACACIA_FENCE field_180405_aT
 	ACACIA_FENCE_GATE field_180387_bt
 	ACACIA_LEAVES field_196572_aa
 	ACACIA_LOG field_196621_O
@@ -5023,11 +5023,11 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	ACACIA_SAPLING field_196679_x
 	ACACIA_SIGN field_222389_ca
 	ACACIA_SLAB field_196632_bu
-	ACACIA_STAIRS field_1.0.10_ck
+	ACACIA_STAIRS field_150400_ck
 	ACACIA_TRAPDOOR field_196682_da
 	ACACIA_WALL_SIGN field_222395_ck
 	ACACIA_WOOD field_196637_U
-	ACTIVATOR_RAIL field_1.0.18_cc
+	ACTIVATOR_RAIL field_150408_cc
 	AIR field_150350_a
 	ALLIUM field_196609_bf
 	ANCIENT_DEBRIS field_235398_nh_
@@ -5042,7 +5042,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	BAMBOO field_222405_kQ
 	BAMBOO_SAPLING field_222404_kP
 	BARREL field_222422_lK
-	BARRIER field_1.0.11_cv
+	BARRIER field_180401_cv
 	BASALT field_235337_cO_
 	BEACON field_150461_bJ
 	BEDROCK field_150357_h
@@ -5052,7 +5052,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	BELL field_222431_lT
 	BIRCH_BUTTON field_196693_eH
 	BIRCH_DOOR field_180412_aq
-	BIRCH_FENCE field_1.0.14_aQ
+	BIRCH_FENCE field_180404_aQ
 	BIRCH_FENCE_GATE field_180392_bq
 	BIRCH_LEAVES field_196647_Y
 	BIRCH_LOG field_196619_M
@@ -5147,7 +5147,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	CHORUS_FLOWER field_185766_cS
 	CHORUS_PLANT field_185765_cR
 	CLAY field_150435_aG
-	COAL_BLOCK field_1.0.12_ci
+	COAL_BLOCK field_150402_ci
 	COAL_ORE field_150365_q
 	COARSE_DIRT field_196660_k
 	COBBLESTONE field_150347_e
@@ -5203,8 +5203,8 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	DAMAGED_ANVIL field_196718_eZ
 	DANDELION field_196605_bc
 	DARK_OAK_BUTTON field_196699_eK
-	DARK_OAK_DOOR field_1.0.19_at
-	DARK_OAK_FENCE field_1.0.16_aS
+	DARK_OAK_DOOR field_180409_at
+	DARK_OAK_FENCE field_180406_aS
 	DARK_OAK_FENCE_GATE field_180385_bs
 	DARK_OAK_LEAVES field_196574_ab
 	DARK_OAK_LOG field_196623_P
@@ -5213,7 +5213,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	DARK_OAK_SAPLING field_196680_y
 	DARK_OAK_SIGN field_222391_cc
 	DARK_OAK_SLAB field_196635_bv
-	DARK_OAK_STAIRS field_1.0.11_cl
+	DARK_OAK_STAIRS field_150401_cl
 	DARK_OAK_TRAPDOOR field_196684_db
 	DARK_OAK_WALL_SIGN field_222397_cm
 	DARK_OAK_WOOD field_196639_V
@@ -5255,7 +5255,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	DRAGON_HEAD field_196716_eW
 	DRAGON_WALL_HEAD field_196715_eV
 	DRIED_KELP_BLOCK field_203216_jz
-	DROPPER field_1.0.19_cd
+	DROPPER field_150409_cd
 	EMERALD_BLOCK field_150475_bE
 	EMERALD_ORE field_150412_bA
 	ENCHANTING_TABLE field_150381_bn
@@ -5319,7 +5319,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	GREEN_WALL_BANNER field_196869_hw
 	GREEN_WOOL field_196569_aY
 	GRINDSTONE field_222427_lP
-	HAY_BLOCK field_1.0.17_cf
+	HAY_BLOCK field_150407_cf
 	HEAVY_WEIGHTED_PRESSURE_PLATE field_150443_bT
 	HONEYCOMB_BLOCK field_226908_md_
 	HONEY_BLOCK field_226907_mc_
@@ -5339,13 +5339,13 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	IRON_BLOCK field_150339_S
 	IRON_DOOR field_150454_av
 	IRON_ORE field_150366_p
-	IRON_TRAPDOOR field_1.0.10_cw
+	IRON_TRAPDOOR field_180400_cw
 	JACK_O_LANTERN field_196628_cT
 	JIGSAW field_226904_lY_
 	JUKEBOX field_150421_aI
 	JUNGLE_BUTTON field_196695_eI
 	JUNGLE_DOOR field_180411_ar
-	JUNGLE_FENCE field_1.0.13_aR
+	JUNGLE_FENCE field_180403_aR
 	JUNGLE_FENCE_GATE field_180386_br
 	JUNGLE_LEAVES field_196648_Z
 	JUNGLE_LOG field_196620_N
@@ -5452,7 +5452,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	NOTE_BLOCK field_196586_al
 	OAK_BUTTON field_196689_eF
 	OAK_DOOR field_180413_ao
-	OAK_FENCE field_1.0.17_aO
+	OAK_FENCE field_180407_aO
 	OAK_FENCE_GATE field_180390_bo
 	OAK_LEAVES field_196642_W
 	OAK_LOG field_196617_K
@@ -5481,7 +5481,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	ORANGE_WALL_BANNER field_196845_hk
 	ORANGE_WOOL field_196557_aM
 	OXEYE_DAISY field_196616_bl
-	PACKED_ICE field_1.0.13_cj
+	PACKED_ICE field_150403_cj
 	PEONY field_196803_gg
 	PETRIFIED_OAK_SLAB field_196643_by
 	PINK_BANNER field_196796_gZ
@@ -5659,7 +5659,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	SPONGE field_150360_v
 	SPRUCE_BUTTON field_196691_eG
 	SPRUCE_DOOR field_180414_ap
-	SPRUCE_FENCE field_1.0.18_aP
+	SPRUCE_FENCE field_180408_aP
 	SPRUCE_FENCE_GATE field_180391_bp
 	SPRUCE_LEAVES field_196645_X
 	SPRUCE_LOG field_196618_L
@@ -5707,7 +5707,7 @@ net/minecraft/block/Blocks net/minecraft/block/Blocks
 	TALL_GRASS field_196804_gh
 	TALL_SEAGRASS field_203199_aR
 	TARGET field_235396_nb_
-	TERRACOTTA field_1.0.15_ch
+	TERRACOTTA field_150405_ch
 	TNT field_150335_W
 	TORCH field_150478_aa
 	TRAPPED_CHEST field_150447_bR
@@ -6041,7 +6041,7 @@ net/minecraft/block/ChestBlock$2$1 net/minecraft/block/ChestBlock$2$1
 	this$0 field_214032_d
 	val$container field_214031_c
 	val$first field_214029_a
-	val$second field_21.0.1_b
+	val$second field_214030_b
 	createMenu (ILnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/inventory/container/Container; createMenu
 	getDisplayName ()Lnet/minecraft/util/text/ITextComponent; func_145748_c_
 net/minecraft/block/ChestBlock$3 net/minecraft/block/ChestBlock$3
@@ -9946,19 +9946,19 @@ net/minecraft/client/entity/player/AbstractClientPlayerEntity net/minecraft/clie
 	elytraRotY field_184836_b
 	elytraRotZ field_184837_c
 	playerInfo field_175157_a
-	getCloakTextureLocation ()Lnet/minecraft/util/ResourceLocation; func_1.0.13_q
+	getCloakTextureLocation ()Lnet/minecraft/util/ResourceLocation; func_110303_q
 	getElytraTextureLocation ()Lnet/minecraft/util/ResourceLocation; func_184834_t
 	getFieldOfViewModifier ()F func_175156_o
 	getModelName ()Ljava/lang/String; func_175154_l
 	getPlayerInfo ()Lnet/minecraft/client/network/play/NetworkPlayerInfo; func_175155_b
 	getSkinLocation (Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation; func_110311_f
-	getSkinTextureLocation ()Lnet/minecraft/util/ResourceLocation; func_1.0.16_p
+	getSkinTextureLocation ()Lnet/minecraft/util/ResourceLocation; func_110306_p
 	isCapeLoaded ()Z func_152122_n
 	isCreative ()Z func_184812_l_
 	isElytraLoaded ()Z func_184833_s
 	isSkinLoaded ()Z func_152123_o
 	isSpectator ()Z func_175149_v
-	registerSkinTexture (Lnet/minecraft/util/ResourceLocation;Ljava/lang/String;)Lnet/minecraft/client/renderer/texture/DownloadingTexture; func_1.0.14_a
+	registerSkinTexture (Lnet/minecraft/util/ResourceLocation;Ljava/lang/String;)Lnet/minecraft/client/renderer/texture/DownloadingTexture; func_110304_a
 net/minecraft/client/entity/player/ClientPlayerEntity net/minecraft/client/entity/player/ClientPlayerEntity
 	ambientSoundHandlers field_204232_cf
 	autoJumpEnabled field_189811_cr
@@ -11362,7 +11362,7 @@ net/minecraft/client/gui/screen/AddServerScreen net/minecraft/client/gui/screen/
 	createServerButtonText (Lnet/minecraft/client/multiplayer/ServerData$ServerResourceMode;)Lnet/minecraft/util/text/ITextComponent; func_238624_a_
 	init ()V func_231160_c_
 	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213031_c
-	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_b
+	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213030_b
 	lambda$init$3 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213029_a
 	lambda$new$0 (Ljava/lang/String;)Z func_210141_a
 	onAdd ()V func_195172_h
@@ -11533,7 +11533,7 @@ net/minecraft/client/gui/screen/ConnectingScreen net/minecraft/client/gui/screen
 	UNIQUE_THREAD_ID field_146372_a
 	aborted field_146373_h
 	connection field_146371_g
-	lastNarration field_21.0.1_g
+	lastNarration field_213000_g
 	parent field_146374_i
 	status field_209515_s
 	access$000 (Lnet/minecraft/client/gui/screen/ConnectingScreen;)Z access$000
@@ -11616,7 +11616,7 @@ net/minecraft/client/gui/screen/CreateFlatWorldScreen net/minecraft/client/gui/s
 	init ()V func_231160_c_
 	lambda$init$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213007_d
 	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213011_c
-	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_b
+	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213010_b
 	lambda$init$3 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213009_a
 	onClose ()V func_231175_as__
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
@@ -11759,7 +11759,7 @@ net/minecraft/client/gui/screen/CreateWorldScreen$GameMode net/minecraft/client/
 net/minecraft/client/gui/screen/CustomizeSkinScreen net/minecraft/client/gui/screen/CustomizeSkinScreen
 	getMessage (Lnet/minecraft/entity/player/PlayerModelPart;)Lnet/minecraft/util/text/ITextComponent; func_238655_a_
 	init ()V func_231160_c_
-	lambda$init$0 (Lnet/minecraft/entity/player/PlayerModelPart;Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_a
+	lambda$init$0 (Lnet/minecraft/entity/player/PlayerModelPart;Lnet/minecraft/client/gui/widget/button/Button;)V func_213080_a
 	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213081_b
 	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213079_a
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
@@ -11782,7 +11782,7 @@ net/minecraft/client/gui/screen/DeathScreen net/minecraft/client/gui/screen/Deat
 	init ()V func_231160_c_
 	isPauseScreen ()Z func_231177_au__
 	lambda$init$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213021_b
-	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_a
+	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213020_a
 	mouseClicked (DDI)Z func_231044_a_
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
 	shouldCloseOnEsc ()Z func_231178_ax__
@@ -12303,7 +12303,7 @@ net/minecraft/client/gui/screen/IngameMenuScreen net/minecraft/client/gui/screen
 	showPauseMenu field_222813_a
 	createPauseMenu ()V func_222810_a
 	init ()V func_231160_c_
-	lambda$createPauseMenu$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_g
+	lambda$createPauseMenu$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213070_g
 	lambda$createPauseMenu$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213065_f
 	lambda$createPauseMenu$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213066_e
 	lambda$createPauseMenu$4 (Ljava/lang/String;Lnet/minecraft/client/gui/widget/button/Button;)V func_213072_a
@@ -12465,7 +12465,7 @@ net/minecraft/client/gui/screen/MainMenuScreen net/minecraft/client/gui/screen/M
 	lambda$createNormalMenuOptions$5 (Lnet/minecraft/client/gui/widget/button/Button;Lcom/mojang/blaze3d/matrix/MatrixStack;II)V func_238659_a_
 	lambda$createNormalMenuOptions$6 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213095_c
 	lambda$createNormalMenuOptions$7 (Lnet/minecraft/client/gui/widget/button/Button;)V func_238661_c_
-	lambda$init$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_i
+	lambda$init$0 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213090_i
 	lambda$init$1 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213096_h
 	lambda$init$2 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213094_g
 	lambda$init$3 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213088_f
@@ -12473,7 +12473,7 @@ net/minecraft/client/gui/screen/MainMenuScreen net/minecraft/client/gui/screen/M
 	lambda$render$11 (Lcom/mojang/blaze3d/matrix/MatrixStack;Ljava/lang/Integer;Ljava/lang/Integer;)V func_238657_a_
 	mouseClicked (DDI)Z func_231044_a_
 	preloadResources (Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture; func_213097_a
-	realmsButtonClicked ()V func_1.0.15_i
+	realmsButtonClicked ()V func_140005_i
 	realmsNotificationsEnabled ()Z func_183501_a
 	removed ()V func_231164_f_
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
@@ -12576,8 +12576,8 @@ net/minecraft/client/gui/screen/OptionsScreen net/minecraft/client/gui/screen/Op
 	lambda$init$6 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213052_f
 	lambda$init$7 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213053_e
 	lambda$init$8 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213049_d
-	lambda$init$9 (Lnet/minecraft/client/gui/widget/button/Button;)V func_21.0.1_c
-	lockCallback (Z)V func_21.0.1_a
+	lambda$init$9 (Lnet/minecraft/client/gui/widget/button/Button;)V func_213060_c
+	lockCallback (Z)V func_213050_a
 	removed ()V func_231164_f_
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
 	updatePackList (Lnet/minecraft/resources/ResourcePackList;)V func_241584_a_
@@ -13077,7 +13077,7 @@ net/minecraft/client/gui/screen/WorkingScreen net/minecraft/client/gui/screen/Wo
 net/minecraft/client/gui/screen/WorldLoadProgressScreen net/minecraft/client/gui/screen/WorldLoadProgressScreen
 	COLORS field_213042_c
 	lastNarration field_213041_b
-	progressListener field_21.0.1_a
+	progressListener field_213040_a
 	lambda$static$0 (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V func_213039_a
 	removed ()V func_231164_f_
 	render (Lcom/mojang/blaze3d/matrix/MatrixStack;IIF)V func_230430_a_
@@ -13233,7 +13233,7 @@ net/minecraft/client/gui/screen/inventory/AbstractFurnaceScreen net/minecraft/cl
 	RECIPE_BUTTON_LOCATION field_214089_l
 	recipeBookComponent field_214088_k
 	texture field_214091_n
-	widthTooNarrow field_21.0.1_m
+	widthTooNarrow field_214090_m
 	charTyped (CI)Z func_231042_a_
 	getRecipeBookComponent ()Lnet/minecraft/client/gui/recipebook/RecipeBookGui; func_194310_f
 	hasClickedOutside (DDIII)Z func_195361_a
@@ -13479,7 +13479,7 @@ net/minecraft/client/gui/screen/inventory/CreativeScreen net/minecraft/client/gu
 	selectTab (Lnet/minecraft/item/ItemGroup;)V func_147050_b
 	slotClicked (Lnet/minecraft/inventory/container/Slot;IILnet/minecraft/inventory/container/ClickType;)V func_184098_a
 	tick ()V func_231023_e_
-	updateVisibleTags (Ljava/lang/String;)V func_21.0.1_a
+	updateVisibleTags (Ljava/lang/String;)V func_214080_a
 net/minecraft/client/gui/screen/inventory/CreativeScreen$CreativeContainer net/minecraft/client/gui/screen/inventory/CreativeScreen$CreativeContainer
 	items field_148330_a
 	canDragTo (Lnet/minecraft/inventory/container/Slot;)Z func_94531_b
@@ -13499,7 +13499,7 @@ net/minecraft/client/gui/screen/inventory/CreativeScreen$CreativeSlot net/minecr
 	isActive ()Z func_111238_b
 	mayPickup (Lnet/minecraft/entity/player/PlayerEntity;)Z func_82869_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 	remove (I)Lnet/minecraft/item/ItemStack; func_75209_a
 	set (Lnet/minecraft/item/ItemStack;)V func_75215_d
 	setChanged ()V func_75218_e
@@ -17906,8 +17906,8 @@ net/minecraft/client/renderer/entity/ItemRenderer net/minecraft/client/renderer/
 	render (Lnet/minecraft/entity/item/ItemEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V func_225623_a_
 	render (Lnet/minecraft/entity/Entity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V func_225623_a_
 net/minecraft/client/renderer/entity/LeashKnotRenderer net/minecraft/client/renderer/entity/LeashKnotRenderer
-	KNOT_LOCATION field_1.0.12_a
-	model field_1.0.11_f
+	KNOT_LOCATION field_110802_a
+	model field_110801_f
 	getTextureLocation (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
 	getTextureLocation (Lnet/minecraft/entity/item/LeashKnotEntity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
 	render (Lnet/minecraft/entity/item/LeashKnotEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V func_225623_a_
@@ -17962,7 +17962,7 @@ net/minecraft/client/renderer/entity/MagmaCubeRenderer net/minecraft/client/rend
 	scale (Lnet/minecraft/entity/monster/MagmaCubeEntity;Lcom/mojang/blaze3d/matrix/MatrixStack;F)V func_225620_a_
 	scale (Lnet/minecraft/entity/LivingEntity;Lcom/mojang/blaze3d/matrix/MatrixStack;F)V func_225620_a_
 net/minecraft/client/renderer/entity/MinecartRenderer net/minecraft/client/renderer/entity/MinecartRenderer
-	MINECART_LOCATION field_1.0.14_g
+	MINECART_LOCATION field_110804_g
 	model field_77013_a
 	getTextureLocation (Lnet/minecraft/entity/item/minecart/AbstractMinecartEntity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
 	getTextureLocation (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
@@ -18165,7 +18165,7 @@ net/minecraft/client/renderer/entity/SpriteRenderer net/minecraft/client/rendere
 	getTextureLocation (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
 	render (Lnet/minecraft/entity/Entity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V func_225623_a_
 net/minecraft/client/renderer/entity/SquidRenderer net/minecraft/client/renderer/entity/SquidRenderer
-	SQUID_LOCATION field_1.0.11_a
+	SQUID_LOCATION field_110901_a
 	getBob (Lnet/minecraft/entity/passive/SquidEntity;F)F func_77044_a
 	getBob (Lnet/minecraft/entity/LivingEntity;F)F func_77044_a
 	getTextureLocation (Lnet/minecraft/entity/passive/SquidEntity;)Lnet/minecraft/util/ResourceLocation; func_110775_a
@@ -22036,7 +22036,7 @@ net/minecraft/command/FunctionObject$CacheableFunction net/minecraft/command/Fun
 	resolved field_193521_c
 	get (Lnet/minecraft/advancements/FunctionManager;)Ljava/util/Optional; func_218039_a
 	getId ()Lnet/minecraft/util/ResourceLocation; func_200376_a
-	lambda$getId$0 (Lnet/minecraft/command/FunctionObject;)Lnet/minecraft/util/ResourceLocation; func_21.0.1_a
+	lambda$getId$0 (Lnet/minecraft/command/FunctionObject;)Lnet/minecraft/util/ResourceLocation; func_218040_a
 net/minecraft/command/FunctionObject$CommandEntry net/minecraft/command/FunctionObject$CommandEntry
 	parse field_196999_a
 	execute (Lnet/minecraft/advancements/FunctionManager;Lnet/minecraft/command/CommandSource;Ljava/util/ArrayDeque;I)V func_196998_a
@@ -22958,7 +22958,7 @@ net/minecraft/command/arguments/NBTPathArgument net/minecraft/command/arguments/
 	ERROR_NOTHING_FOUND field_218084_b
 	EXAMPLES field_201316_a
 	access$000 (Lnet/minecraft/nbt/CompoundNBT;)Ljava/util/function/Predicate; func_218082_a
-	createTagPredicate (Lnet/minecraft/nbt/CompoundNBT;)Ljava/util/function/Predicate; func_21.0.1_b
+	createTagPredicate (Lnet/minecraft/nbt/CompoundNBT;)Ljava/util/function/Predicate; func_218080_b
 	getExamples ()Ljava/util/Collection; getExamples
 	getPath (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/command/arguments/NBTPathArgument$NBTPath; func_197148_a
 	isAllowedInUnquotedName (C)Z func_197146_a
@@ -22974,21 +22974,21 @@ net/minecraft/command/arguments/NBTPathArgument$CollectionNode net/minecraft/com
 	index field_218059_a
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTPathArgument$CompoundNode net/minecraft/command/arguments/NBTPathArgument$CompoundNode
 	predicate field_218066_a
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTPathArgument$EmptyListNode net/minecraft/command/arguments/NBTPathArgument$EmptyListNode
 	INSTANCE field_218067_a
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTPathArgument$INode net/minecraft/command/arguments/NBTPathArgument$INode
@@ -22997,7 +22997,7 @@ net/minecraft/command/arguments/NBTPathArgument$INode net/minecraft/command/argu
 	get (Ljava/util/List;)Ljava/util/List; func_218056_a
 	getOrCreate (Ljava/util/List;Ljava/util/function/Supplier;)Ljava/util/List; func_218052_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	lambda$getOrCreate$0 (Ljava/util/function/Supplier;Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218055_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
@@ -23007,7 +23007,7 @@ net/minecraft/command/arguments/NBTPathArgument$JsonNode net/minecraft/command/a
 	predicate field_218065_c
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTPathArgument$ListNode net/minecraft/command/arguments/NBTPathArgument$ListNode
@@ -23015,8 +23015,8 @@ net/minecraft/command/arguments/NBTPathArgument$ListNode net/minecraft/command/a
 	predicate field_218062_b
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
-	lambda$getOrCreateTag$0 (Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnet/minecraft/nbt/INBT;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
+	lambda$getOrCreateTag$0 (Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnet/minecraft/nbt/INBT;)V func_218060_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTPathArgument$NBTPath net/minecraft/command/arguments/NBTPathArgument$NBTPath
@@ -23025,7 +23025,7 @@ net/minecraft/command/arguments/NBTPathArgument$NBTPath net/minecraft/command/ar
 	original field_197144_a
 	apply (Ljava/util/List;Ljava/util/function/Function;)I func_218075_a
 	countMatching (Lnet/minecraft/nbt/INBT;)I func_218069_b
-	createNotFoundException (Lnet/minecraft/command/arguments/NBTPathArgument$INode;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException; func_21.0.1_a
+	createNotFoundException (Lnet/minecraft/command/arguments/NBTPathArgument$INode;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException; func_218070_a
 	get (Lnet/minecraft/nbt/INBT;)Ljava/util/List; func_218071_a
 	getOrCreate (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)Ljava/util/List; func_218073_a
 	getOrCreateParents (Lnet/minecraft/nbt/INBT;)Ljava/util/List; func_218072_d
@@ -23038,7 +23038,7 @@ net/minecraft/command/arguments/NBTPathArgument$StringNode net/minecraft/command
 	name field_218058_a
 	createPreferredParentTag ()Lnet/minecraft/nbt/INBT; func_197134_a
 	getOrCreateTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;Ljava/util/List;)V func_218054_a
-	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_21.0.1_a
+	getTag (Lnet/minecraft/nbt/INBT;Ljava/util/List;)V func_218050_a
 	removeTag (Lnet/minecraft/nbt/INBT;)I func_218053_a
 	setTag (Lnet/minecraft/nbt/INBT;Ljava/util/function/Supplier;)I func_218051_a
 net/minecraft/command/arguments/NBTTagArgument net/minecraft/command/arguments/NBTTagArgument
@@ -26260,7 +26260,7 @@ net/minecraft/enchantment/Enchantments net/minecraft/enchantment/Enchantments
 	BLOCK_FORTUNE field_185308_t
 	CHANNELING field_203196_F
 	DEPTH_STRIDER field_185300_i
-	FALL_PROTECTION field_1.0.19_e
+	FALL_PROTECTION field_180309_e
 	FIRE_ASPECT field_77334_n
 	FIRE_PROTECTION field_77329_d
 	FISHING_LUCK field_151370_z
@@ -26276,7 +26276,7 @@ net/minecraft/enchantment/Enchantments net/minecraft/enchantment/Enchantments
 	MULTISHOT field_222192_G
 	PIERCING field_222194_I
 	POWER_ARROWS field_185309_u
-	PROJECTILE_PROTECTION field_1.0.18_g
+	PROJECTILE_PROTECTION field_180308_g
 	PUNCH_ARROWS field_185310_v
 	QUICK_CHARGE field_222193_H
 	RESPIRATION field_185298_f
@@ -27274,7 +27274,7 @@ net/minecraft/entity/IJumpingMount net/minecraft/entity/IJumpingMount
 	canJump ()Z func_184776_b
 	handleStartJump (I)V func_184775_b
 	handleStopJump ()V func_184777_r_
-	onPlayerJump (I)V func_1.0.16_u
+	onPlayerJump (I)V func_110206_u
 net/minecraft/entity/ILivingEntityData net/minecraft/entity/ILivingEntityData
 net/minecraft/entity/INPC net/minecraft/entity/INPC
 net/minecraft/entity/IRangedAttackMob net/minecraft/entity/IRangedAttackMob
@@ -29583,7 +29583,7 @@ net/minecraft/entity/ai/goal/HurtByTargetGoal net/minecraft/entity/ai/goal/HurtB
 	toIgnoreAlert field_220797_i
 	toIgnoreDamage field_179447_c
 	alertOther (Lnet/minecraft/entity/MobEntity;Lnet/minecraft/entity/LivingEntity;)V func_220793_a
-	alertOthers ()V func_1.0.15_f
+	alertOthers ()V func_190105_f
 	canUse ()Z func_75250_a
 	setAlertOthers ([Ljava/lang/Class;)Lnet/minecraft/entity/ai/goal/HurtByTargetGoal; func_220794_a
 	start ()V func_75249_e
@@ -29667,7 +29667,7 @@ net/minecraft/entity/ai/goal/MeleeAttackGoal net/minecraft/entity/ai/goal/MeleeA
 	ticksUntilNextPathRecalculation field_75445_i
 	canContinueToUse ()Z func_75253_b
 	canUse ()Z func_75250_a
-	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_1.0.12_a
+	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_190102_a
 	getAttackInterval ()I func_234042_k_
 	getAttackReachSqr (Lnet/minecraft/entity/LivingEntity;)D func_179512_a
 	getTicksUntilNextAttack ()I func_234041_j_
@@ -30679,7 +30679,7 @@ net/minecraft/entity/item/HangingEntity net/minecraft/entity/item/HangingEntity
 	lambda$static$0 (Lnet/minecraft/entity/Entity;)Z func_210144_b
 	mirror (Lnet/minecraft/util/Mirror;)F func_184217_a
 	move (Lnet/minecraft/entity/MoverType;Lnet/minecraft/util/math/vector/Vector3d;)V func_213315_a
-	offs (I)D func_1.0.12_a
+	offs (I)D func_190202_a
 	playPlacementSound ()V func_184523_o
 	push (DDD)V func_70024_g
 	readAdditionalSaveData (Lnet/minecraft/nbt/CompoundNBT;)V func_70037_a
@@ -33797,7 +33797,7 @@ net/minecraft/entity/passive/FoxEntity$BaseGoal net/minecraft/entity/passive/Fox
 net/minecraft/entity/passive/FoxEntity$BiteGoal net/minecraft/entity/passive/FoxEntity$BiteGoal
 	this$0 field_220721_d
 	canUse ()Z func_75250_a
-	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_1.0.12_a
+	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_190102_a
 	start ()V func_75249_e
 net/minecraft/entity/passive/FoxEntity$EatBerriesGoal net/minecraft/entity/passive/FoxEntity$EatBerriesGoal
 	this$0 field_220732_h
@@ -34364,20 +34364,20 @@ net/minecraft/entity/passive/PolarBearEntity net/minecraft/entity/passive/PolarB
 	startPersistentAngerTimer ()V func_230258_H__
 	tick ()V func_70071_h_
 net/minecraft/entity/passive/PolarBearEntity$AttackPlayerGoal net/minecraft/entity/passive/PolarBearEntity$AttackPlayerGoal
-	this$0 field_1.0.17_i
+	this$0 field_190107_i
 	canUse ()Z func_75250_a
 	getFollowDistance ()D func_111175_f
 net/minecraft/entity/passive/PolarBearEntity$HurtByTargetGoal net/minecraft/entity/passive/PolarBearEntity$HurtByTargetGoal
-	this$0 field_1.0.16_a
+	this$0 field_190106_a
 	alertOther (Lnet/minecraft/entity/MobEntity;Lnet/minecraft/entity/LivingEntity;)V func_220793_a
 	start ()V func_75249_e
 net/minecraft/entity/passive/PolarBearEntity$MeleeAttackGoal net/minecraft/entity/passive/PolarBearEntity$MeleeAttackGoal
-	this$0 field_1.0.13_h
-	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_1.0.12_a
+	this$0 field_190103_h
+	checkAndPerformAttack (Lnet/minecraft/entity/LivingEntity;D)V func_190102_a
 	getAttackReachSqr (Lnet/minecraft/entity/LivingEntity;)D func_179512_a
 	stop ()V func_75251_c
 net/minecraft/entity/passive/PolarBearEntity$PanicGoal net/minecraft/entity/passive/PolarBearEntity$PanicGoal
-	this$0 field_1.0.14_b
+	this$0 field_190104_b
 	canUse ()Z func_75250_a
 net/minecraft/entity/passive/RabbitEntity net/minecraft/entity/passive/RabbitEntity
 	DATA_TYPE_ID field_184773_bv
@@ -35056,7 +35056,7 @@ net/minecraft/entity/passive/horse/AbstractChestedHorseEntity net/minecraft/enti
 	playChestEquipsSound ()V func_190697_dk
 	randomizeAttributes ()V func_230273_eI_
 	readAdditionalSaveData (Lnet/minecraft/nbt/CompoundNBT;)V func_70037_a
-	setChest (Z)V func_1.0.17_m
+	setChest (Z)V func_110207_m
 	setSlot (ILnet/minecraft/item/ItemStack;)Z func_174820_d
 net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/passive/horse/AbstractHorseEntity
 	DATA_ID_FLAGS field_184787_bE
@@ -35090,7 +35090,7 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	canEatGrass ()Z func_190684_dE
 	canJump ()Z func_184776_b
 	canMate (Lnet/minecraft/entity/passive/AnimalEntity;)Z func_70878_b
-	canParent ()Z func_1.0.10_cJ
+	canParent ()Z func_110200_cJ
 	canWearArmor ()Z func_230276_fq_
 	causeFallDamage (FF)Z func_225503_b_
 	containerChanged (Lnet/minecraft/inventory/IInventory;)V func_76316_a
@@ -35106,7 +35106,7 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	followMommy ()V func_190679_dD
 	generateRandomJumpStrength ()D func_110245_cM
 	generateRandomMaxHealth ()F func_110267_cL
-	generateRandomSpeed ()D func_1.0.13_cN
+	generateRandomSpeed ()D func_110203_cN
 	getAmbientSound ()Lnet/minecraft/util/SoundEvent; func_184639_G
 	getAmbientSoundInterval ()I func_70627_aG
 	getAngrySound ()Lnet/minecraft/util/SoundEvent; func_184785_dv
@@ -35123,7 +35123,7 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	getInventorySize ()I func_190686_di
 	getMaxSpawnClusterSize ()I func_70641_bl
 	getMaxTemper ()I func_190676_dC
-	getMouthAnim (F)F func_1.0.11_q
+	getMouthAnim (F)F func_110201_q
 	getOwnerUUID ()Ljava/util/UUID; func_184780_dh
 	getSoundVolume ()F func_70599_aP
 	getStandAnim (F)F func_110223_p
@@ -35134,15 +35134,15 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	handleStartJump (I)V func_184775_b
 	handleStopJump ()V func_184777_r_
 	isArmor (Lnet/minecraft/item/ItemStack;)Z func_190682_f
-	isBred ()Z func_1.0.15_ce
-	isEating ()Z func_1.0.14_cc
+	isBred ()Z func_110205_ce
+	isEating ()Z func_110204_cc
 	isFood (Lnet/minecraft/item/ItemStack;)Z func_70877_b
 	isImmobile ()Z func_70610_aX
 	isJumping ()Z func_110246_bZ
 	isPushable ()Z func_70104_M
 	isSaddleable ()Z func_230264_L__
 	isSaddled ()Z func_110257_ck
-	isStanding ()Z func_1.0.19_cd
+	isStanding ()Z func_110209_cd
 	isTamed ()Z func_110248_bS
 	isWearingArmor ()Z func_230277_fr_
 	lambda$static$0 (Lnet/minecraft/entity/LivingEntity;)Z func_213617_h
@@ -35151,7 +35151,7 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	moveTail ()V func_110210_cH
 	onClimbable ()Z func_70617_f_
 	onLeashDistance (F)V func_142017_o
-	onPlayerJump (I)V func_1.0.16_u
+	onPlayerJump (I)V func_110206_u
 	openInventory (Lnet/minecraft/entity/player/PlayerEntity;)V func_110199_f
 	openMouth ()V func_110249_cI
 	playGallopSound (Lnet/minecraft/block/SoundType;)V func_190680_a
@@ -35163,7 +35163,7 @@ net/minecraft/entity/passive/horse/AbstractHorseEntity net/minecraft/entity/pass
 	registerGoals ()V func_184651_r
 	setBred (Z)V func_110242_l
 	setEating (Z)V func_110227_p
-	setFlag (IZ)V func_1.0.18_b
+	setFlag (IZ)V func_110208_b
 	setIsJumping (Z)V func_110255_k
 	setOffspringAttributes (Lnet/minecraft/entity/AgeableEntity;Lnet/minecraft/entity/passive/horse/AbstractHorseEntity;)V func_190681_a
 	setOwnerUUID (Ljava/util/UUID;)V func_184779_b
@@ -35282,8 +35282,8 @@ net/minecraft/entity/passive/horse/LlamaEntity net/minecraft/entity/passive/hors
 	getLeashOffset ()Lnet/minecraft/util/math/vector/Vector3d; func_241205_ce_
 	getMaxTemper ()I func_190676_dC
 	getPassengersRidingOffset ()D func_70042_X
-	getStrength ()I func_1.0.17_dL
-	getSwag ()Lnet/minecraft/item/DyeColor; func_1.0.14_dO
+	getStrength ()I func_190707_dL
+	getSwag ()Lnet/minecraft/item/DyeColor; func_190704_dO
 	getVariant ()I func_190719_dM
 	handleEating (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Z func_190678_b
 	hasCaravanTail ()Z func_190712_dQ
@@ -35295,7 +35295,7 @@ net/minecraft/entity/passive/horse/LlamaEntity net/minecraft/entity/passive/hors
 	isTraderLlama ()Z func_213800_eB
 	isWearingArmor ()Z func_230277_fr_
 	joinCaravan (Lnet/minecraft/entity/passive/horse/LlamaEntity;)V func_190715_a
-	leaveCaravan ()V func_1.0.19_dP
+	leaveCaravan ()V func_190709_dP
 	makeBabyLlama ()Lnet/minecraft/entity/passive/horse/LlamaEntity; func_213799_eF
 	makeMad ()V func_190687_dF
 	performRangedAttack (Lnet/minecraft/entity/LivingEntity;F)V func_82196_d
@@ -35305,8 +35305,8 @@ net/minecraft/entity/passive/horse/LlamaEntity net/minecraft/entity/passive/hors
 	readAdditionalSaveData (Lnet/minecraft/nbt/CompoundNBT;)V func_70037_a
 	registerGoals ()V func_184651_r
 	setDidSpit (Z)V func_190714_x
-	setRandomStrength ()V func_1.0.15_dT
-	setStrength (I)V func_1.0.16_p
+	setRandomStrength ()V func_190705_dT
+	setStrength (I)V func_190706_p
 	setSwag (Lnet/minecraft/item/DyeColor;)V func_190711_a
 	setVariant (I)V func_190710_o
 	spit (Lnet/minecraft/entity/LivingEntity;)V func_190713_e
@@ -36646,7 +36646,7 @@ net/minecraft/inventory/container/AbstractFurnaceContainer net/minecraft/invento
 	canSmelt (Lnet/minecraft/item/ItemStack;)Z func_217057_a
 	clearCraftingContent ()V func_201768_e
 	fillCraftSlotsStackedContents (Lnet/minecraft/item/crafting/RecipeItemHelper;)V func_201771_a
-	getBurnProgress ()I func_21.0.1_j
+	getBurnProgress ()I func_217060_j
 	getGridHeight ()I func_201772_h
 	getGridWidth ()I func_201770_g
 	getLitProgress ()I func_217059_k
@@ -36682,7 +36682,7 @@ net/minecraft/inventory/container/AbstractRepairContainer$2 net/minecraft/invent
 	this$0 field_234649_a_
 	mayPickup (Lnet/minecraft/entity/player/PlayerEntity;)Z func_82869_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/BeaconContainer net/minecraft/inventory/container/BeaconContainer
 	access field_216971_e
 	beacon field_82866_e
@@ -36725,7 +36725,7 @@ net/minecraft/inventory/container/BrewingStandContainer$PotionSlot net/minecraft
 	getMaxStackSize ()I func_75219_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 	mayPlaceItem (Lnet/minecraft/item/ItemStack;)Z func_75243_a_
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/CartographyContainer net/minecraft/inventory/container/CartographyContainer
 	access field_216999_d
 	container field_216998_c
@@ -36758,7 +36758,7 @@ net/minecraft/inventory/container/CartographyContainer$5 net/minecraft/inventory
 	val$access field_216937_a
 	lambda$onTake$0 (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_242385_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/ChestContainer net/minecraft/inventory/container/ChestContainer
 	container field_75155_e
 	containerRows field_75154_f
@@ -36878,8 +36878,8 @@ net/minecraft/inventory/container/CraftingResultSlot net/minecraft/inventory/con
 	checkTakeAchievements (Lnet/minecraft/item/ItemStack;)V func_75208_c
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 	onQuickCraft (Lnet/minecraft/item/ItemStack;I)V func_75210_a
-	onSwapCraft (I)V func_1.0.10_b
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onSwapCraft (I)V func_190900_b
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 	remove (I)Lnet/minecraft/item/ItemStack; func_75209_a
 net/minecraft/inventory/container/DispenserContainer net/minecraft/inventory/container/DispenserContainer
 	dispenser field_178146_a
@@ -36927,14 +36927,14 @@ net/minecraft/inventory/container/FurnaceResultSlot net/minecraft/inventory/cont
 	checkTakeAchievements (Lnet/minecraft/item/ItemStack;)V func_75208_c
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 	onQuickCraft (Lnet/minecraft/item/ItemStack;I)V func_75210_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 	remove (I)Lnet/minecraft/item/ItemStack; func_75209_a
 net/minecraft/inventory/container/GrindstoneContainer net/minecraft/inventory/container/GrindstoneContainer
 	access field_217015_e
 	repairSlots field_217014_d
 	resultSlots field_217013_c
 	access$000 (Lnet/minecraft/inventory/container/GrindstoneContainer;)Lnet/minecraft/inventory/IInventory; func_217008_a
-	createResult ()V func_21.0.1_e
+	createResult ()V func_217010_e
 	lambda$removeNonCurses$0 (Ljava/util/Map$Entry;)Z func_217012_a
 	lambda$removed$1 (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_217009_a
 	mergeEnchants (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_217011_b
@@ -36959,7 +36959,7 @@ net/minecraft/inventory/container/GrindstoneContainer$4 net/minecraft/inventory/
 	getExperienceFromItem (Lnet/minecraft/item/ItemStack;)I func_216943_e
 	lambda$onTake$0 (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_216944_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/HopperContainer net/minecraft/inventory/container/HopperContainer
 	hopper field_94538_a
 	quickMoveStack (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack; func_82846_b
@@ -36973,7 +36973,7 @@ net/minecraft/inventory/container/HorseInventoryContainer net/minecraft/inventor
 	stillValid (Lnet/minecraft/entity/player/PlayerEntity;)Z func_75145_c
 net/minecraft/inventory/container/HorseInventoryContainer$1 net/minecraft/inventory/container/HorseInventoryContainer$1
 	this$0 field_111239_a
-	val$horse field_1.0.12_a
+	val$horse field_190902_a
 	isActive ()Z func_111238_b
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 net/minecraft/inventory/container/HorseInventoryContainer$2 net/minecraft/inventory/container/HorseInventoryContainer$2
@@ -37005,7 +37005,7 @@ net/minecraft/inventory/container/LoomContainer net/minecraft/inventory/containe
 	access field_217033_c
 	bannerSlot field_217036_f
 	dyeSlot field_217037_g
-	inputContainer field_21.0.1_j
+	inputContainer field_217040_j
 	lastSoundTime field_226622_j_
 	outputContainer field_217041_k
 	patternSlot field_217038_h
@@ -37015,7 +37015,7 @@ net/minecraft/inventory/container/LoomContainer net/minecraft/inventory/containe
 	access$000 (Lnet/minecraft/inventory/container/LoomContainer;)Ljava/lang/Runnable; func_217021_a
 	access$100 (Lnet/minecraft/inventory/container/LoomContainer;)Lnet/minecraft/inventory/container/Slot; func_217027_b
 	access$200 (Lnet/minecraft/inventory/container/LoomContainer;)Lnet/minecraft/inventory/container/Slot; func_217029_c
-	access$300 (Lnet/minecraft/inventory/container/LoomContainer;)Lnet/minecraft/util/IntReferenceHolder; func_21.0.1_d
+	access$300 (Lnet/minecraft/inventory/container/LoomContainer;)Lnet/minecraft/util/IntReferenceHolder; func_217030_d
 	access$400 (Lnet/minecraft/inventory/container/LoomContainer;)J func_226624_e_
 	access$402 (Lnet/minecraft/inventory/container/LoomContainer;J)J func_226623_a_
 	clickMenuButton (Lnet/minecraft/entity/player/PlayerEntity;I)Z func_75140_a
@@ -37027,7 +37027,7 @@ net/minecraft/inventory/container/LoomContainer net/minecraft/inventory/containe
 	lambda$new$0 ()V func_217032_k
 	lambda$removed$1 (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_217028_a
 	quickMoveStack (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack; func_82846_b
-	registerUpdateListener (Ljava/lang/Runnable;)V func_21.0.1_a
+	registerUpdateListener (Ljava/lang/Runnable;)V func_217020_a
 	removed (Lnet/minecraft/entity/player/PlayerEntity;)V func_75134_a
 	setupResultSlot ()V func_217031_j
 	slotsChanged (Lnet/minecraft/inventory/IInventory;)V func_75130_a
@@ -37052,7 +37052,7 @@ net/minecraft/inventory/container/LoomContainer$6 net/minecraft/inventory/contai
 	val$access field_216952_a
 	lambda$onTake$0 (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_216951_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/MerchantContainer net/minecraft/inventory/container/MerchantContainer
 	canRestock field_223433_g
 	merchantLevel field_217054_e
@@ -37065,7 +37065,7 @@ net/minecraft/inventory/container/MerchantContainer net/minecraft/inventory/cont
 	getOffers ()Lnet/minecraft/item/MerchantOffers; func_217051_h
 	getTraderLevel ()I func_217049_g
 	getTraderXp ()I func_217048_e
-	isSameItem (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z func_21.0.1_b
+	isSameItem (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z func_217050_b
 	moveFromInventoryToPaymentSlot (ILnet/minecraft/item/ItemStack;)V func_217053_c
 	playTradeSound ()V func_223132_j
 	quickMoveStack (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack; func_82846_b
@@ -37088,7 +37088,7 @@ net/minecraft/inventory/container/MerchantResultSlot net/minecraft/inventory/con
 	checkTakeAchievements (Lnet/minecraft/item/ItemStack;)V func_75208_c
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 	onQuickCraft (Lnet/minecraft/item/ItemStack;I)V func_75210_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 	remove (I)Lnet/minecraft/item/ItemStack; func_75209_a
 net/minecraft/inventory/container/PlayerContainer net/minecraft/inventory/container/PlayerContainer
 	BLOCK_ATLAS field_226615_c_
@@ -37182,8 +37182,8 @@ net/minecraft/inventory/container/Slot net/minecraft/inventory/container/Slot
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
 	onQuickCraft (Lnet/minecraft/item/ItemStack;I)V func_75210_a
 	onQuickCraft (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V func_75220_a
-	onSwapCraft (I)V func_1.0.10_b
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onSwapCraft (I)V func_190900_b
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 	remove (I)Lnet/minecraft/item/ItemStack; func_75209_a
 	set (Lnet/minecraft/item/ItemStack;)V func_75215_d
 	setChanged ()V func_75218_e
@@ -37207,7 +37207,7 @@ net/minecraft/inventory/container/StonecutterContainer net/minecraft/inventory/c
 	input field_217092_k
 	inputSlot field_217085_d
 	lastSoundTime field_217093_l
-	level field_21.0.1_i
+	level field_217090_i
 	recipes field_217091_j
 	resultContainer field_217095_n
 	resultSlot field_217086_e
@@ -37226,7 +37226,7 @@ net/minecraft/inventory/container/StonecutterContainer net/minecraft/inventory/c
 	getType ()Lnet/minecraft/inventory/container/ContainerType; func_216957_a
 	hasInputItem ()Z func_217083_h
 	isValidRecipeIndex (I)Z func_241818_d_
-	lambda$new$0 ()V func_21.0.1_j
+	lambda$new$0 ()V func_217080_j
 	lambda$removed$1 (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_217079_a
 	quickMoveStack (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack; func_82846_b
 	registerUpdateListener (Ljava/lang/Runnable;)V func_217071_a
@@ -37243,9 +37243,9 @@ net/minecraft/inventory/container/StonecutterContainer$2 net/minecraft/inventory
 	val$access field_216955_a
 	lambda$onTake$0 (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V func_216954_a
 	mayPlace (Lnet/minecraft/item/ItemStack;)Z func_75214_a
-	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_1.0.11_a
+	onTake (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack; func_190901_a
 net/minecraft/inventory/container/WorkbenchContainer net/minecraft/inventory/container/WorkbenchContainer
-	access field_21.0.1_e
+	access field_217070_e
 	craftSlots field_75162_e
 	player field_192390_i
 	resultSlots field_75160_f
@@ -37270,7 +37270,7 @@ net/minecraft/item/AbstractMapItem net/minecraft/item/AbstractMapItem
 	getUpdatePacket (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/network/IPacket; func_150911_c
 	isComplex ()Z func_77643_m_
 net/minecraft/item/AirItem net/minecraft/item/AirItem
-	block field_1.0.14_a
+	block field_190904_a
 	appendHoverText (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V func_77624_a
 	getDescriptionId ()Ljava/lang/String; func_77658_a
 net/minecraft/item/ArmorItem net/minecraft/item/ArmorItem
@@ -37560,7 +37560,7 @@ net/minecraft/item/FilledMapItem net/minecraft/item/FilledMapItem
 	appendHoverText (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V func_77624_a
 	create (Lnet/minecraft/world/World;IIBZZ)Lnet/minecraft/item/ItemStack; func_195952_a
 	createAndStoreSavedData (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;IIIZZLnet/minecraft/util/RegistryKey;)Lnet/minecraft/world/storage/MapData; func_195951_a
-	getColor (Lnet/minecraft/item/ItemStack;)I func_1.0.17_h
+	getColor (Lnet/minecraft/item/ItemStack;)I func_190907_h
 	getCorrectStateForFluidBlock (Lnet/minecraft/world/World;Lnet/minecraft/block/BlockState;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState; func_211698_a
 	getMapId (Lnet/minecraft/item/ItemStack;)I func_195949_f
 	getOrCreateSavedData (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;)Lnet/minecraft/world/storage/MapData; func_195950_a
@@ -37761,7 +37761,7 @@ net/minecraft/item/Item net/minecraft/item/Item
 	finishUsingItem (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;)Lnet/minecraft/item/ItemStack; func_77654_b
 	getCraftingRemainingItem ()Lnet/minecraft/item/Item; func_77668_q
 	getDefaultAttributeModifiers (Lnet/minecraft/inventory/EquipmentSlotType;)Lcom/google/common/collect/Multimap; func_111205_h
-	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_1.0.13_i
+	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_190903_i
 	getDescription ()Lnet/minecraft/util/text/ITextComponent; func_200296_o
 	getDescriptionId ()Ljava/lang/String; func_77658_a
 	getDescriptionId (Lnet/minecraft/item/ItemStack;)Ljava/lang/String; func_77667_c
@@ -39194,7 +39194,7 @@ net/minecraft/item/PotionItem net/minecraft/item/PotionItem
 	appendHoverText (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V func_77624_a
 	fillItemCategory (Lnet/minecraft/item/ItemGroup;Lnet/minecraft/util/NonNullList;)V func_150895_a
 	finishUsingItem (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;)Lnet/minecraft/item/ItemStack; func_77654_b
-	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_1.0.13_i
+	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_190903_i
 	getDescriptionId (Lnet/minecraft/item/ItemStack;)Ljava/lang/String; func_77667_c
 	getUseAnimation (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/UseAction; func_77661_b
 	getUseDuration (Lnet/minecraft/item/ItemStack;)I func_77626_a
@@ -39298,7 +39298,7 @@ net/minecraft/item/TieredItem net/minecraft/item/TieredItem
 net/minecraft/item/TippedArrowItem net/minecraft/item/TippedArrowItem
 	appendHoverText (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V func_77624_a
 	fillItemCategory (Lnet/minecraft/item/ItemGroup;Lnet/minecraft/util/NonNullList;)V func_150895_a
-	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_1.0.13_i
+	getDefaultInstance ()Lnet/minecraft/item/ItemStack; func_190903_i
 	getDescriptionId (Lnet/minecraft/item/ItemStack;)Ljava/lang/String; func_77667_c
 net/minecraft/item/ToolItem net/minecraft/item/ToolItem
 	attackDamageBaseline field_77865_bY
@@ -39905,7 +39905,7 @@ net/minecraft/loot/AlternativesLootEntry$Builder net/minecraft/loot/Alternatives
 	build ()Lnet/minecraft/loot/LootEntry; func_216081_b
 	getThis ()Lnet/minecraft/loot/AlternativesLootEntry$Builder; func_212845_d_
 	getThis ()Lnet/minecraft/loot/LootEntry$Builder; func_212845_d_
-	otherwise (Lnet/minecraft/loot/LootEntry$Builder;)Lnet/minecraft/loot/AlternativesLootEntry$Builder; func_21.0.1_a
+	otherwise (Lnet/minecraft/loot/LootEntry$Builder;)Lnet/minecraft/loot/AlternativesLootEntry$Builder; func_216080_a
 net/minecraft/loot/BinomialRange net/minecraft/loot/BinomialRange
 	n field_215841_d
 	p field_215842_e
@@ -40080,7 +40080,7 @@ net/minecraft/loot/LootContext$Builder net/minecraft/loot/LootContext$Builder
 	withLuck (F)Lnet/minecraft/loot/LootContext$Builder; func_186469_a
 	withOptionalParameter (Lnet/minecraft/loot/LootParameter;Ljava/lang/Object;)Lnet/minecraft/loot/LootContext$Builder; func_216021_b
 	withOptionalRandomSeed (J)Lnet/minecraft/loot/LootContext$Builder; func_216016_a
-	withOptionalRandomSeed (JLjava/util/Random;)Lnet/minecraft/loot/LootContext$Builder; func_21.0.1_a
+	withOptionalRandomSeed (JLjava/util/Random;)Lnet/minecraft/loot/LootContext$Builder; func_216020_a
 	withParameter (Lnet/minecraft/loot/LootParameter;Ljava/lang/Object;)Lnet/minecraft/loot/LootContext$Builder; func_216015_a
 	withRandom (Ljava/util/Random;)Lnet/minecraft/loot/LootContext$Builder; func_216023_a
 net/minecraft/loot/LootContext$EntityTarget net/minecraft/loot/LootContext$EntityTarget
@@ -40090,7 +40090,7 @@ net/minecraft/loot/LootContext$EntityTarget net/minecraft/loot/LootContext$Entit
 	KILLER_PLAYER KILLER_PLAYER
 	THIS THIS
 	name field_186488_d
-	param field_21.0.1_f
+	param field_216030_f
 	access$100 (Lnet/minecraft/loot/LootContext$EntityTarget;)Ljava/lang/String; func_216028_a
 	getByName (Ljava/lang/String;)Lnet/minecraft/loot/LootContext$EntityTarget; func_186482_a
 	getParam ()Lnet/minecraft/loot/LootParameter; func_216029_a
@@ -40114,7 +40114,7 @@ net/minecraft/loot/LootEntry$Builder net/minecraft/loot/LootEntry$Builder
 	build ()Lnet/minecraft/loot/LootEntry; func_216081_b
 	getConditions ()[Lnet/minecraft/loot/conditions/ILootCondition; func_216079_f
 	getThis ()Lnet/minecraft/loot/LootEntry$Builder; func_212845_d_
-	otherwise (Lnet/minecraft/loot/LootEntry$Builder;)Lnet/minecraft/loot/AlternativesLootEntry$Builder; func_21.0.1_a
+	otherwise (Lnet/minecraft/loot/LootEntry$Builder;)Lnet/minecraft/loot/AlternativesLootEntry$Builder; func_216080_a
 	unwrap ()Ljava/lang/Object; func_212862_c_
 	unwrap ()Lnet/minecraft/loot/LootEntry$Builder; func_212862_c_
 	when (Lnet/minecraft/loot/conditions/ILootCondition$IBuilder;)Ljava/lang/Object; func_212840_b_
@@ -40249,7 +40249,7 @@ net/minecraft/loot/LootPool$Builder net/minecraft/loot/LootPool$Builder
 	conditions field_216048_b
 	entries field_216047_a
 	functions field_216049_c
-	rolls field_21.0.1_d
+	rolls field_216050_d
 	add (Lnet/minecraft/loot/LootEntry$Builder;)Lnet/minecraft/loot/LootPool$Builder; func_216045_a
 	apply (Lnet/minecraft/loot/functions/ILootFunction$IBuilder;)Lnet/minecraft/loot/LootPool$Builder; func_212841_b_
 	apply (Lnet/minecraft/loot/functions/ILootFunction$IBuilder;)Ljava/lang/Object; func_212841_b_
@@ -40323,7 +40323,7 @@ net/minecraft/loot/LootTable$Builder net/minecraft/loot/LootTable$Builder
 	setParamSet (Lnet/minecraft/loot/LootParameterSet;)Lnet/minecraft/loot/LootTable$Builder; func_216039_a
 	unwrap ()Ljava/lang/Object; func_212862_c_
 	unwrap ()Lnet/minecraft/loot/LootTable$Builder; func_212862_c_
-	withPool (Lnet/minecraft/loot/LootPool$Builder;)Lnet/minecraft/loot/LootTable$Builder; func_21.0.1_a
+	withPool (Lnet/minecraft/loot/LootPool$Builder;)Lnet/minecraft/loot/LootTable$Builder; func_216040_a
 net/minecraft/loot/LootTable$Serializer net/minecraft/loot/LootTable$Serializer
 	deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object; deserialize
 	deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/loot/LootTable; deserialize
@@ -40520,7 +40520,7 @@ net/minecraft/loot/StandaloneLootEntry$Builder net/minecraft/loot/StandaloneLoot
 	setQuality (I)Lnet/minecraft/loot/StandaloneLootEntry$Builder; func_216085_b
 	setWeight (I)Lnet/minecraft/loot/StandaloneLootEntry$Builder; func_216086_a
 net/minecraft/loot/StandaloneLootEntry$BuilderImpl net/minecraft/loot/StandaloneLootEntry$BuilderImpl
-	constructor field_21.0.1_c
+	constructor field_216090_c
 	build ()Lnet/minecraft/loot/LootEntry; func_216081_b
 	getThis ()Lnet/minecraft/loot/StandaloneLootEntry$BuilderImpl; func_212845_d_
 	getThis ()Lnet/minecraft/loot/LootEntry$Builder; func_212845_d_
@@ -40664,7 +40664,7 @@ net/minecraft/loot/conditions/EntityHasProperty net/minecraft/loot/conditions/En
 	getType ()Lnet/minecraft/loot/LootConditionType; func_230419_b_
 	hasProperties (Lnet/minecraft/loot/LootContext$EntityTarget;Lnet/minecraft/advancements/criterion/EntityPredicate;)Lnet/minecraft/loot/conditions/ILootCondition$IBuilder; func_237477_a_
 	hasProperties (Lnet/minecraft/loot/LootContext$EntityTarget;Lnet/minecraft/advancements/criterion/EntityPredicate$Builder;)Lnet/minecraft/loot/conditions/ILootCondition$IBuilder; func_215999_a
-	lambda$hasProperties$0 (Lnet/minecraft/advancements/criterion/EntityPredicate$Builder;Lnet/minecraft/loot/LootContext$EntityTarget;)Lnet/minecraft/loot/conditions/ILootCondition; func_21.0.1_a
+	lambda$hasProperties$0 (Lnet/minecraft/advancements/criterion/EntityPredicate$Builder;Lnet/minecraft/loot/LootContext$EntityTarget;)Lnet/minecraft/loot/conditions/ILootCondition; func_216000_a
 	lambda$hasProperties$1 (Lnet/minecraft/advancements/criterion/EntityPredicate;Lnet/minecraft/loot/LootContext$EntityTarget;)Lnet/minecraft/loot/conditions/ILootCondition; func_237476_a_
 	test (Ljava/lang/Object;)Z test
 	test (Lnet/minecraft/loot/LootContext;)Z test
@@ -40876,7 +40876,7 @@ net/minecraft/loot/conditions/TimeCheck$Serializer net/minecraft/loot/conditions
 	serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V func_230424_a_
 net/minecraft/loot/conditions/WeatherCheck net/minecraft/loot/conditions/WeatherCheck
 	isRaining field_216009_a
-	isThundering field_21.0.1_b
+	isThundering field_216010_b
 	access$100 (Lnet/minecraft/loot/conditions/WeatherCheck;)Ljava/lang/Boolean; func_216008_a
 	access$200 (Lnet/minecraft/loot/conditions/WeatherCheck;)Ljava/lang/Boolean; func_216007_b
 	getType ()Lnet/minecraft/loot/LootConditionType; func_230419_b_
@@ -41104,7 +41104,7 @@ net/minecraft/loot/functions/EnchantWithLevels net/minecraft/loot/functions/Ench
 	run (Lnet/minecraft/item/ItemStack;Lnet/minecraft/loot/LootContext;)Lnet/minecraft/item/ItemStack; func_215859_a
 net/minecraft/loot/functions/EnchantWithLevels$1 net/minecraft/loot/functions/EnchantWithLevels$1
 net/minecraft/loot/functions/EnchantWithLevels$Builder net/minecraft/loot/functions/EnchantWithLevels$Builder
-	levels field_21.0.1_a
+	levels field_216060_a
 	treasure field_216061_b
 	allowTreasure ()Lnet/minecraft/loot/functions/EnchantWithLevels$Builder; func_216059_e
 	build ()Lnet/minecraft/loot/functions/ILootFunction; func_216052_b
@@ -41140,7 +41140,7 @@ net/minecraft/loot/functions/ExplorationMap$Builder net/minecraft/loot/functions
 	destination field_216066_a
 	mapDecoration field_216067_b
 	searchRadius field_216069_d
-	skipKnownStructures field_21.0.1_e
+	skipKnownStructures field_216070_e
 	zoom field_216068_c
 	build ()Lnet/minecraft/loot/functions/ILootFunction; func_216052_b
 	getThis ()Lnet/minecraft/loot/functions/ExplorationMap$Builder; func_212826_d_
@@ -41695,7 +41695,7 @@ net/minecraft/nbt/IntArrayNBT net/minecraft/nbt/IntArrayNBT
 	equals (Ljava/lang/Object;)Z equals
 	get (I)Lnet/minecraft/nbt/IntNBT; get
 	get (I)Ljava/lang/Object; get
-	getAsIntArray ()[I func_1.0.12_c
+	getAsIntArray ()[I func_150302_c
 	getElementType ()B func_230528_d__
 	getId ()B func_74732_a
 	getPrettyDisplay (Ljava/lang/String;I)Lnet/minecraft/util/text/ITextComponent; func_199850_a
@@ -41790,17 +41790,17 @@ net/minecraft/nbt/ListNBT net/minecraft/nbt/ListNBT
 	equals (Ljava/lang/Object;)Z equals
 	get (I)Lnet/minecraft/nbt/INBT; get
 	get (I)Ljava/lang/Object; get
-	getCompound (I)Lnet/minecraft/nbt/CompoundNBT; func_1.0.15_b
-	getDouble (I)D func_1.0.19_d
+	getCompound (I)Lnet/minecraft/nbt/CompoundNBT; func_150305_b
+	getDouble (I)D func_150309_d
 	getElementType ()B func_230528_d__
-	getFloat (I)F func_1.0.18_e
+	getFloat (I)F func_150308_e
 	getId ()B func_74732_a
 	getInt (I)I func_186858_c
-	getIntArray (I)[I func_1.0.16_c
+	getIntArray (I)[I func_150306_c
 	getList (I)Lnet/minecraft/nbt/ListNBT; func_202169_e
 	getPrettyDisplay (Ljava/lang/String;I)Lnet/minecraft/util/text/ITextComponent; func_199850_a
 	getShort (I)S func_202170_f
-	getString (I)Ljava/lang/String; func_1.0.17_f
+	getString (I)Ljava/lang/String; func_150307_f
 	getType ()Lnet/minecraft/nbt/INBTType; func_225647_b_
 	hashCode ()I hashCode
 	isEmpty ()Z isEmpty
@@ -41954,7 +41954,7 @@ net/minecraft/nbt/NBTDynamicOps net/minecraft/nbt/NBTDynamicOps
 	lambda$mergeToMap$5 (Ljava/util/List;Lnet/minecraft/nbt/CompoundNBT;Lcom/mojang/datafixers/util/Pair;)V func_240605_a_
 	lambda$null$7 (Ljava/util/function/BiConsumer;Lnet/minecraft/nbt/CompoundNBT;Ljava/lang/String;)V func_240606_a_
 	lambda$remove$14 (Ljava/lang/String;Ljava/lang/String;)Z func_212019_a_
-	lambda$remove$15 (Lnet/minecraft/nbt/CompoundNBT;Lnet/minecraft/nbt/CompoundNBT;Ljava/lang/String;)V func_21.0.1_a_
+	lambda$remove$15 (Lnet/minecraft/nbt/CompoundNBT;Lnet/minecraft/nbt/CompoundNBT;Ljava/lang/String;)V func_212010_a_
 	mapBuilder ()Lcom/mojang/serialization/RecordBuilder; mapBuilder
 	mergeToList (Lnet/minecraft/nbt/INBT;Lnet/minecraft/nbt/INBT;)Lcom/mojang/serialization/DataResult; mergeToList
 	mergeToList (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult; mergeToList
@@ -42003,14 +42003,14 @@ net/minecraft/nbt/NBTUtil net/minecraft/nbt/NBTUtil
 	getName (Lnet/minecraft/state/Property;Ljava/lang/Comparable;)Ljava/lang/String; func_190010_a
 	loadUUID (Lnet/minecraft/nbt/INBT;)Ljava/util/UUID; func_186860_b
 	readBlockPos (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/util/math/BlockPos; func_186861_c
-	readBlockState (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/block/BlockState; func_1.0.18_d
+	readBlockState (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/block/BlockState; func_190008_d
 	readGameProfile (Lnet/minecraft/nbt/CompoundNBT;)Lcom/mojang/authlib/GameProfile; func_152459_a
 	setValueHelper (Lnet/minecraft/state/StateHolder;Lnet/minecraft/state/Property;Ljava/lang/String;Lnet/minecraft/nbt/CompoundNBT;Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/state/StateHolder; func_193590_a
 	update (Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/util/datafix/DefaultTypeReferences;Lnet/minecraft/nbt/CompoundNBT;II)Lnet/minecraft/nbt/CompoundNBT; func_210821_a
 	update (Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/util/datafix/DefaultTypeReferences;Lnet/minecraft/nbt/CompoundNBT;I)Lnet/minecraft/nbt/CompoundNBT; func_210822_a
 	writeBlockPos (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/nbt/CompoundNBT; func_186859_a
-	writeBlockState (Lnet/minecraft/block/BlockState;)Lnet/minecraft/nbt/CompoundNBT; func_1.0.19_a
-	writeGameProfile (Lnet/minecraft/nbt/CompoundNBT;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/nbt/CompoundNBT; func_1.0.18_a
+	writeBlockState (Lnet/minecraft/block/BlockState;)Lnet/minecraft/nbt/CompoundNBT; func_190009_a
+	writeGameProfile (Lnet/minecraft/nbt/CompoundNBT;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/nbt/CompoundNBT; func_180708_a
 net/minecraft/nbt/NumberNBT net/minecraft/nbt/NumberNBT
 	getAsByte ()B func_150290_f
 	getAsDouble ()D func_150286_g
@@ -42115,7 +42115,7 @@ net/minecraft/network/NettyCompressionEncoder net/minecraft/network/NettyCompres
 	encode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V encode
 	setThreshold (I)V func_179299_a
 net/minecraft/network/NettyEncryptingDecoder net/minecraft/network/NettyEncryptingDecoder
-	cipher field_1.0.19_a
+	cipher field_150509_a
 	decode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V decode
 	decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V decode
 net/minecraft/network/NettyEncryptingEncoder net/minecraft/network/NettyEncryptingEncoder
@@ -42123,14 +42123,14 @@ net/minecraft/network/NettyEncryptingEncoder net/minecraft/network/NettyEncrypti
 	encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V encode
 	encode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V encode
 net/minecraft/network/NettyEncryptionTranslator net/minecraft/network/NettyEncryptionTranslator
-	cipher field_1.0.17_a
-	heapIn field_1.0.15_b
-	heapOut field_1.0.16_c
-	bufToByte (Lio/netty/buffer/ByteBuf;)[B func_1.0.12_a
-	decipher (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBuf; func_1.0.13_a
-	encipher (Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V func_1.0.14_a
+	cipher field_150507_a
+	heapIn field_150505_b
+	heapOut field_150506_c
+	bufToByte (Lio/netty/buffer/ByteBuf;)[B func_150502_a
+	decipher (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBuf; func_150503_a
+	encipher (Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V func_150504_a
 net/minecraft/network/NettyPacketDecoder net/minecraft/network/NettyPacketDecoder
-	LOGGER field_1.0.10_a
+	LOGGER field_150800_a
 	MARKER field_150799_b
 	flow field_152499_c
 	decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V decode
@@ -42731,7 +42731,7 @@ net/minecraft/network/datasync/DataSerializers$9 net/minecraft/network/datasync/
 	write (Lnet/minecraft/network/PacketBuffer;Ljava/lang/Boolean;)V func_187160_a
 net/minecraft/network/datasync/EntityDataManager net/minecraft/network/datasync/EntityDataManager
 	ENTITY_ID_POOL field_187232_a
-	LOGGER field_1.0.13_a
+	LOGGER field_190303_a
 	entity field_187233_b
 	isDirty field_187237_f
 	isEmpty field_187236_e
@@ -45934,7 +45934,7 @@ net/minecraft/profiler/Snooper net/minecraft/profiler/Snooper
 	timer field_76479_e
 	token field_76480_b
 	url field_76481_c
-	getStartupTime ()J func_1.0.15_g
+	getStartupTime ()J func_130105_g
 	getToken ()Ljava/lang/String; func_80006_f
 	interrupt ()V func_76470_e
 	isStarted ()Z func_76468_d
@@ -47029,7 +47029,7 @@ net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	setPort (I)V func_71208_b
 	setPreventProxyConnections (Z)V func_190517_e
 	setPvpAllowed (Z)V func_71188_g
-	setResourcePack (Ljava/lang/String;Ljava/lang/String;)V func_1.0.17_a_
+	setResourcePack (Ljava/lang/String;Ljava/lang/String;)V func_180507_a_
 	setSingleplayerName (Ljava/lang/String;)V func_71224_l
 	setUsesAuthentication (Z)V func_71229_d
 	setupDebugLevel (Lnet/minecraft/world/storage/IServerConfiguration;)V func_240778_a_
@@ -47204,7 +47204,7 @@ net/minecraft/server/dedicated/PropertyManager net/minecraft/server/dedicated/Pr
 	wrapNumberDeserializer (Ljava/util/function/Function;)Ljava/util/function/Function; func_218963_a
 net/minecraft/server/dedicated/PropertyManager$1 net/minecraft/server/dedicated/PropertyManager$1
 net/minecraft/server/dedicated/PropertyManager$Property net/minecraft/server/dedicated/PropertyManager$Property
-	key field_21.0.1_b
+	key field_219040_b
 	serializer field_219042_d
 	this$0 field_219039_a
 	value field_219041_c
@@ -47260,17 +47260,17 @@ net/minecraft/server/dedicated/ServerProperties net/minecraft/server/dedicated/S
 	enableCommandBlock field_218995_H
 	enableJmxMonitoring field_241079_P_
 	enableQuery field_219028_v
-	enableRcon field_21.0.1_x
+	enableRcon field_219030_x
 	enableStatus field_241080_Q_
 	enforceWhitelist field_219017_k
 	entityBroadcastRangePercentage field_241081_R_
 	forceGameMode field_219016_j
 	functionPermissionLevel field_225395_K
-	gamemode field_21.0.1_n
+	gamemode field_219020_n
 	hardcore field_218990_C
 	levelName field_219021_o
 	maxBuildHeight field_219026_t
-	maxPlayers field_21.0.1_M
+	maxPlayers field_219000_M
 	maxTickTime field_218998_K
 	maxWorldSize field_219004_Q
 	motd field_219015_i
@@ -47290,7 +47290,7 @@ net/minecraft/server/dedicated/ServerProperties net/minecraft/server/dedicated/S
 	serverIp field_219009_c
 	serverPort field_219025_s
 	snooperEnabled field_218993_F
-	spawnAnimals field_21.0.1_d
+	spawnAnimals field_219010_d
 	spawnMonsters field_218992_E
 	spawnNpcs field_219011_e
 	spawnProtection field_218996_I
@@ -47319,7 +47319,7 @@ net/minecraft/server/gui/MinecraftServerGui net/minecraft/server/gui/MinecraftSe
 	buildChatPanel ()Ljavax/swing/JComponent; func_120018_d
 	buildInfoPanel ()Ljavax/swing/JComponent; func_120019_b
 	buildPlayerPanel ()Ljavax/swing/JComponent; func_120020_c
-	close ()V func_21.0.1_b
+	close ()V func_219050_b
 	lambda$buildChatPanel$0 (Ljavax/swing/JTextField;Ljava/awt/event/ActionEvent;)V func_210465_a
 	lambda$buildChatPanel$1 (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;)V func_210464_a
 	lambda$print$2 (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;Ljava/lang/String;)V func_210463_b
@@ -48866,7 +48866,7 @@ net/minecraft/tileentity/AbstractFurnaceTileEntity net/minecraft/tileentity/Abst
 	SLOTS_FOR_DOWN field_214016_h
 	SLOTS_FOR_SIDES field_214017_i
 	SLOTS_FOR_UP field_214015_g
-	cookingProgress field_21.0.1_l
+	cookingProgress field_214020_l
 	cookingTotalTime field_214021_m
 	dataAccess field_214013_b
 	items field_214012_a
@@ -48876,9 +48876,9 @@ net/minecraft/tileentity/AbstractFurnaceTileEntity net/minecraft/tileentity/Abst
 	recipesUsed field_214022_n
 	access$000 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_214002_a
 	access$002 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;I)I func_213994_a
-	access$100 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_21.0.1_b
+	access$100 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_214000_b
 	access$102 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;I)I func_213999_b
-	access$200 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_21.0.1_c
+	access$200 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_214010_c
 	access$202 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;I)I func_214009_c
 	access$300 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;)I func_214011_d
 	access$302 (Lnet/minecraft/tileentity/AbstractFurnaceTileEntity;I)I func_213998_d
@@ -49509,7 +49509,7 @@ net/minecraft/tileentity/JukeboxTileEntity net/minecraft/tileentity/JukeboxTileE
 	save (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/nbt/CompoundNBT; func_189515_b
 	setRecord (Lnet/minecraft/item/ItemStack;)V func_195535_a
 net/minecraft/tileentity/LecternTileEntity net/minecraft/tileentity/LecternTileEntity
-	book field_21.0.1_c
+	book field_214050_c
 	bookAccess field_214048_a
 	dataAccess field_214049_b
 	page field_214051_g
@@ -49533,7 +49533,7 @@ net/minecraft/tileentity/LecternTileEntity net/minecraft/tileentity/LecternTileE
 	resolveBook (Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/item/ItemStack; func_214047_b
 	save (Lnet/minecraft/nbt/CompoundNBT;)Lnet/minecraft/nbt/CompoundNBT; func_189515_b
 	setBook (Lnet/minecraft/item/ItemStack;)V func_214045_a
-	setBook (Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)V func_21.0.1_a
+	setBook (Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)V func_214040_a
 	setPage (I)V func_214035_a
 net/minecraft/tileentity/LecternTileEntity$1 net/minecraft/tileentity/LecternTileEntity$1
 	this$0 field_214028_a
@@ -49613,8 +49613,8 @@ net/minecraft/tileentity/PistonTileEntity net/minecraft/tileentity/PistonTileEnt
 	progress field_145873_m
 	progressO field_145870_n
 	finalTick ()V func_145866_f
-	fixEntityWithinPistonBase (Lnet/minecraft/entity/Entity;Lnet/minecraft/util/Direction;D)V func_1.0.15_a
-	getCollisionRelatedBlockState ()Lnet/minecraft/block/BlockState; func_1.0.16_j
+	fixEntityWithinPistonBase (Lnet/minecraft/entity/Entity;Lnet/minecraft/util/Direction;D)V func_190605_a
+	getCollisionRelatedBlockState ()Lnet/minecraft/block/BlockState; func_190606_j
 	getCollisionShape (Lnet/minecraft/world/IBlockReader;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/shapes/VoxelShape; func_195508_a
 	getDirection ()Lnet/minecraft/util/Direction; func_212363_d
 	getExtendedProgress (F)F func_184320_e
@@ -49635,7 +49635,7 @@ net/minecraft/tileentity/PistonTileEntity net/minecraft/tileentity/PistonTileEnt
 	lambda$static$0 ()Lnet/minecraft/util/Direction; func_227026_z_
 	load (Lnet/minecraft/block/BlockState;Lnet/minecraft/nbt/CompoundNBT;)V func_230337_a_
 	matchesStickyCritera (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z func_227021_a_
-	moveByPositionAndProgress (Lnet/minecraft/util/math/AxisAlignedBB;)Lnet/minecraft/util/math/AxisAlignedBB; func_1.0.17_a
+	moveByPositionAndProgress (Lnet/minecraft/util/math/AxisAlignedBB;)Lnet/minecraft/util/math/AxisAlignedBB; func_190607_a
 	moveCollidedEntities (F)V func_184322_i
 	moveEntityByPiston (Lnet/minecraft/util/Direction;Lnet/minecraft/entity/Entity;DLnet/minecraft/util/Direction;)V func_227022_a_
 	moveStuckEntities (F)V func_227024_g_
@@ -49647,12 +49647,12 @@ net/minecraft/tileentity/PistonTileEntity$1 net/minecraft/tileentity/PistonTileE
 net/minecraft/tileentity/ShulkerBoxTileEntity net/minecraft/tileentity/ShulkerBoxTileEntity
 	SLOTS field_190595_a
 	animationStatus field_190599_i
-	color field_1.0.12_l
+	color field_190602_l
 	itemStacks field_190596_f
 	loadColorFromBlock field_204400_o
 	openCount field_190598_h
-	progress field_1.0.10_j
-	progressOld field_1.0.11_k
+	progress field_190600_j
+	progressOld field_190601_k
 	canPlaceItemThroughFace (ILnet/minecraft/item/ItemStack;Lnet/minecraft/util/Direction;)Z func_180462_a
 	canTakeItemThroughFace (ILnet/minecraft/item/ItemStack;Lnet/minecraft/util/Direction;)Z func_180461_b
 	createMenu (ILnet/minecraft/entity/player/PlayerInventory;)Lnet/minecraft/inventory/container/Container; func_213906_a
@@ -52027,7 +52027,7 @@ net/minecraft/util/Util net/minecraft/util/Util
 	IO_POOL field_240975_f_
 	LOGGER field_195650_a
 	NIL_UUID field_240973_b_
-	WORKER_COUNT field_21.0.1_b
+	WORKER_COUNT field_215090_b
 	timeSource field_211180_a
 	access$100 ()Lorg/apache/logging/log4j/Logger; access$100
 	backgroundExecutor ()Ljava/util/concurrent/Executor; func_215072_e
@@ -52624,7 +52624,7 @@ net/minecraft/util/datafix/fixes/BlockStateFlatteningMap net/minecraft/util/data
 	register (ILjava/lang/String;[Ljava/lang/String;)V func_199194_a
 	upgradeBlock (Ljava/lang/String;)Ljava/lang/String; func_199198_a
 	upgradeBlock (I)Ljava/lang/String; func_207215_a
-	upgradeBlockStateTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic; func_21.0.1_a
+	upgradeBlockStateTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic; func_210050_a
 net/minecraft/util/datafix/fixes/BlockStateFlatternEntities net/minecraft/util/datafix/fixes/BlockStateFlatternEntities
 	MAP field_199172_a
 	getBlockId (Ljava/lang/String;)I func_199171_a
@@ -52802,7 +52802,7 @@ net/minecraft/util/datafix/fixes/ChunkPaletteFormat$UpgradeChunk net/minecraft/u
 	lambda$null$2 (Lcom/mojang/serialization/Dynamic;)V func_210065_a_
 	relative (ILnet/minecraft/util/datafix/fixes/ChunkPaletteFormat$Direction;)I func_199223_a
 	removeBlockEntity (I)Lcom/mojang/serialization/Dynamic; func_210059_c
-	setBlock (ILcom/mojang/serialization/Dynamic;)V func_21.0.1_a
+	setBlock (ILcom/mojang/serialization/Dynamic;)V func_210060_a
 	write ()Lcom/mojang/serialization/Dynamic; func_210058_a
 net/minecraft/util/datafix/fixes/ChunkStatusFix net/minecraft/util/datafix/fixes/ChunkStatusFix
 	lambda$makeRule$1 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed; func_219826_a
@@ -55704,7 +55704,7 @@ net/minecraft/util/text/ITextComponent net/minecraft/util/text/ITextComponent
 	visitSelf (Lnet/minecraft/util/text/ITextProperties$IStyledTextAcceptor;Lnet/minecraft/util/text/Style;)Ljava/util/Optional; func_230534_b_
 	visitSelf (Lnet/minecraft/util/text/ITextProperties$ITextAcceptor;)Ljava/util/Optional; func_230533_b_
 net/minecraft/util/text/ITextComponent$Serializer net/minecraft/util/text/ITextComponent$Serializer
-	GSON field_1.0.10_a
+	GSON field_150700_a
 	JSON_READER_LINESTART field_200530_c
 	JSON_READER_POS field_197674_b
 	deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object; deserialize
@@ -55837,7 +55837,7 @@ net/minecraft/util/text/NBTTextComponent$Storage net/minecraft/util/text/NBTText
 	toString ()Ljava/lang/String; toString
 net/minecraft/util/text/ScoreTextComponent net/minecraft/util/text/ScoreTextComponent
 	name field_179999_b
-	objective field_1.0.10_c
+	objective field_180000_c
 	selector field_197667_c
 	equals (Ljava/lang/Object;)Z equals
 	findTargetName (Lnet/minecraft/command/CommandSource;)Ljava/lang/String; func_240705_a_
@@ -56081,12 +56081,12 @@ net/minecraft/util/text/event/ClickEvent$Action net/minecraft/util/text/event/Cl
 	values ()[Lnet/minecraft/util/text/event/ClickEvent$Action; values
 net/minecraft/util/text/event/HoverEvent net/minecraft/util/text/event/HoverEvent
 	LOGGER field_240660_a_
-	action field_1.0.14_a
-	value field_1.0.13_b
+	action field_150704_a
+	value field_150703_b
 	access$100 ()Lorg/apache/logging/log4j/Logger; func_240664_c_
 	deserialize (Lcom/google/gson/JsonObject;)Lnet/minecraft/util/text/event/HoverEvent; func_240661_a_
 	equals (Ljava/lang/Object;)Z equals
-	getAction ()Lnet/minecraft/util/text/event/HoverEvent$Action; func_1.0.11_a
+	getAction ()Lnet/minecraft/util/text/event/HoverEvent$Action; func_150701_a
 	getValue (Lnet/minecraft/util/text/event/HoverEvent$Action;)Ljava/lang/Object; func_240662_a_
 	hashCode ()I hashCode
 	serialize ()Lcom/google/gson/JsonObject; func_240663_b_
@@ -56996,7 +56996,7 @@ net/minecraft/world/IWorldWriter net/minecraft/world/IWorldWriter
 	destroyBlock (Lnet/minecraft/util/math/BlockPos;ZLnet/minecraft/entity/Entity;I)Z func_241212_a_
 	removeBlock (Lnet/minecraft/util/math/BlockPos;Z)Z func_217377_a
 	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;II)Z func_241211_a_
-	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;I)Z func_1.0.11_a
+	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;I)Z func_180501_a
 net/minecraft/world/LightType net/minecraft/world/LightType
 	$VALUES $VALUES
 	BLOCK BLOCK
@@ -57210,7 +57210,7 @@ net/minecraft/world/World net/minecraft/world/World
 	isClientSide ()Z func_201670_d
 	isDay ()Z func_72935_r
 	isDebug ()Z func_234925_Z_
-	isHumidAt (Lnet/minecraft/util/math/BlockPos;)Z func_1.0.12_D
+	isHumidAt (Lnet/minecraft/util/math/BlockPos;)Z func_180502_D
 	isInSpawnableBounds (Lnet/minecraft/util/math/BlockPos;)Z func_234935_k_
 	isInWorldBounds (Lnet/minecraft/util/math/BlockPos;)Z func_175701_a
 	isInWorldBoundsHorizontal (Lnet/minecraft/util/math/BlockPos;)Z func_234934_e_
@@ -57244,7 +57244,7 @@ net/minecraft/world/World net/minecraft/world/World
 	sendBlockUpdated (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V func_184138_a
 	sendPacketToServer (Lnet/minecraft/network/IPacket;)V func_184135_a
 	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;II)Z func_241211_a_
-	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;I)Z func_1.0.11_a
+	setBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;I)Z func_180501_a
 	setBlockAndUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;)Z func_175656_a
 	setBlockEntity (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/tileentity/TileEntity;)V func_175690_a
 	setBlocksDirty (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;)V func_225319_b
@@ -57297,7 +57297,7 @@ net/minecraft/world/biome/Biome net/minecraft/world/biome/Biome
 	LIST_CODEC field_242420_e
 	LOGGER field_150586_aC
 	NETWORK_CODEC field_242419_c
-	TEMPERATURE_NOISE field_1.0.15_ac
+	TEMPERATURE_NOISE field_150605_ac
 	biomeCategory field_201877_au
 	climateSettings field_242423_j
 	depth field_76748_D
@@ -57712,7 +57712,7 @@ net/minecraft/world/biome/BiomeRegistry net/minecraft/world/biome/BiomeRegistry
 	register (ILnet/minecraft/util/RegistryKey;Lnet/minecraft/world/biome/Biome;)Lnet/minecraft/world/biome/Biome; func_244204_a
 net/minecraft/world/biome/Biomes net/minecraft/world/biome/Biomes
 	BADLANDS field_150589_Z
-	BADLANDS_PLATEAU field_1.0.18_ab
+	BADLANDS_PLATEAU field_150608_ab
 	BAMBOO_JUNGLE field_222370_aw
 	BAMBOO_JUNGLE_HILLS field_222371_ax
 	BASALT_DELTAS field_235251_aB_
@@ -57787,7 +57787,7 @@ net/minecraft/world/biome/Biomes net/minecraft/world/biome/Biomes
 	THE_VOID field_185440_P
 	WARM_OCEAN field_203614_T
 	WARPED_FOREST field_235250_aA_
-	WOODED_BADLANDS_PLATEAU field_1.0.17_aa
+	WOODED_BADLANDS_PLATEAU field_150607_aa
 	WOODED_HILLS field_76785_t
 	WOODED_MOUNTAINS field_150580_W
 	register (Ljava/lang/String;)Lnet/minecraft/util/RegistryKey; func_242548_a
@@ -58682,7 +58682,7 @@ net/minecraft/world/chunk/ChunkTaskPriorityQueueSorter net/minecraft/world/chunk
 	getReleaseProcessor (Lnet/minecraft/util/concurrent/ITaskExecutor;)Lnet/minecraft/util/concurrent/ITaskExecutor; func_219091_a
 	lambda$getDebugStatus$18 (Ljava/util/Map$Entry;)Ljava/lang/String; func_225397_a
 	lambda$getProcessor$5 (Lnet/minecraft/util/concurrent/ITaskExecutor;ZLnet/minecraft/util/concurrent/ITaskExecutor;)Lnet/minecraft/util/concurrent/ITaskQueue$RunnableWithPriority; func_219086_a
-	lambda$getReleaseProcessor$8 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/util/concurrent/ITaskExecutor;)Lnet/minecraft/util/concurrent/ITaskQueue$RunnableWithPriority; func_21.0.1_a
+	lambda$getReleaseProcessor$8 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/util/concurrent/ITaskExecutor;)Lnet/minecraft/util/concurrent/ITaskQueue$RunnableWithPriority; func_219080_a
 	lambda$message$2 (Ljava/lang/Runnable;Lnet/minecraft/util/concurrent/ITaskExecutor;)Ljava/lang/Runnable; func_219072_a
 	lambda$new$0 (ILnet/minecraft/util/concurrent/ITaskExecutor;)Lnet/minecraft/world/chunk/ChunkTaskPriorityQueue; func_219084_a
 	lambda$null$1 (Ljava/lang/Runnable;Lnet/minecraft/util/concurrent/ITaskExecutor;)V func_219083_b
@@ -58691,14 +58691,14 @@ net/minecraft/world/chunk/ChunkTaskPriorityQueueSorter net/minecraft/world/chunk
 	lambda$null$15 (Lnet/minecraft/world/chunk/ChunkTaskPriorityQueue;Lnet/minecraft/util/concurrent/ITaskExecutor;Ljava/util/List;)V func_219088_a
 	lambda$null$17 (Ljava/lang/Long;)Ljava/lang/String; func_225398_a
 	lambda$null$3 (Lnet/minecraft/util/concurrent/ITaskExecutor;ZLnet/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$FunctionEntry;)V func_219071_a
-	lambda$null$4 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/util/concurrent/ITaskExecutor;Z)V func_21.0.1_a
+	lambda$null$4 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/util/concurrent/ITaskExecutor;Z)V func_219090_a
 	lambda$null$6 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$RunnableEntry;)V func_219075_a
 	lambda$null$7 (Lnet/minecraft/util/concurrent/ITaskExecutor;Lnet/minecraft/util/concurrent/ITaskExecutor;)V func_219089_b
 	lambda$null$9 (ILnet/minecraft/util/math/ChunkPos;ILnet/minecraft/world/chunk/ChunkTaskPriorityQueue;)V func_219076_a
 	lambda$onLevelChange$10 (Ljava/util/function/IntSupplier;Lnet/minecraft/util/math/ChunkPos;ILjava/util/function/IntConsumer;)V func_219085_a
 	lambda$pollTask$16 (Lnet/minecraft/world/chunk/ChunkTaskPriorityQueue;Lnet/minecraft/util/concurrent/ITaskExecutor;)V func_219079_b
 	lambda$release$11 (Lnet/minecraft/util/concurrent/ITaskExecutor;JZLjava/lang/Runnable;)V func_219082_a
-	lambda$submit$12 (Lnet/minecraft/util/concurrent/ITaskExecutor;Ljava/util/function/IntSupplier;JLjava/util/function/Function;Z)V func_21.0.1_a
+	lambda$submit$12 (Lnet/minecraft/util/concurrent/ITaskExecutor;Ljava/util/function/IntSupplier;JLjava/util/function/Function;Z)V func_219070_a
 	message (Lnet/minecraft/world/server/ChunkHolder;Ljava/lang/Runnable;)Lnet/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$FunctionEntry; func_219081_a
 	message (Ljava/lang/Runnable;JLjava/util/function/IntSupplier;)Lnet/minecraft/world/chunk/ChunkTaskPriorityQueueSorter$FunctionEntry; func_219069_a
 	onLevelChange (Lnet/minecraft/util/math/ChunkPos;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V func_219066_a
@@ -61133,7 +61133,7 @@ net/minecraft/world/gen/feature/structure/FortressPieces$Corridor net/minecraft/
 	createPiece (Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/Direction;I)Lnet/minecraft/world/gen/feature/structure/FortressPieces$Corridor; func_175879_a
 	postProcess (Lnet/minecraft/world/ISeedReader;Lnet/minecraft/world/gen/feature/structure/StructureManager;Lnet/minecraft/world/gen/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/MutableBoundingBox;Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/util/math/BlockPos;)Z func_230383_a_
 net/minecraft/world/gen/feature/structure/FortressPieces$Corridor2 net/minecraft/world/gen/feature/structure/FortressPieces$Corridor2
-	isNeedingChest field_11.0.1_b
+	isNeedingChest field_111020_b
 	addAdditionalSaveData (Lnet/minecraft/nbt/CompoundNBT;)V func_143011_b
 	addChildren (Lnet/minecraft/world/gen/feature/structure/StructurePiece;Ljava/util/List;Ljava/util/Random;)V func_74861_a
 	createPiece (Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/Direction;I)Lnet/minecraft/world/gen/feature/structure/FortressPieces$Corridor2; func_175876_a
@@ -63001,7 +63001,7 @@ net/minecraft/world/gen/placement/GlowstonePlacement net/minecraft/world/gen/pla
 	place (Ljava/util/Random;Lnet/minecraft/world/gen/placement/IPlacementConfig;Lnet/minecraft/util/math/BlockPos;)Ljava/util/stream/Stream; func_212852_a_
 	place (Ljava/util/Random;Lnet/minecraft/world/gen/feature/FeatureSpreadConfig;Lnet/minecraft/util/math/BlockPos;)Ljava/util/stream/Stream; func_212852_a_
 net/minecraft/world/gen/placement/Height4To32 net/minecraft/world/gen/placement/Height4To32
-	lambda$place$0 (Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;I)Lnet/minecraft/util/math/BlockPos; func_21.0.1_a
+	lambda$place$0 (Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;I)Lnet/minecraft/util/math/BlockPos; func_215060_a
 	place (Ljava/util/Random;Lnet/minecraft/world/gen/placement/IPlacementConfig;Lnet/minecraft/util/math/BlockPos;)Ljava/util/stream/Stream; func_212852_a_
 	place (Ljava/util/Random;Lnet/minecraft/world/gen/placement/NoPlacementConfig;Lnet/minecraft/util/math/BlockPos;)Ljava/util/stream/Stream; func_212852_a_
 net/minecraft/world/gen/placement/HeightmapBasedPlacement net/minecraft/world/gen/placement/HeightmapBasedPlacement
@@ -64137,7 +64137,7 @@ net/minecraft/world/server/ChunkManager$1 net/minecraft/world/server/ChunkManage
 net/minecraft/world/server/ChunkManager$2 net/minecraft/world/server/ChunkManager$2
 	this$0 field_219064_g
 	val$either field_219063_f
-	val$finalI field_21.0.1_c
+	val$finalI field_219060_c
 	val$range field_219061_d
 	val$startX field_219059_a
 	val$startZ field_219062_e
