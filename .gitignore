@@ -1,0 +1,28 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+build/
+.gradle/
+bin/
+out/
+dist/
+target/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project specific run folders
+**/run/
