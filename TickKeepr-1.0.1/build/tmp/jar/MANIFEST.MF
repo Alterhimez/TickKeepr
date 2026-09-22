@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: tickkeepr
-Implementation-Version: 1.0.1
-Specification-Vendor: Alter
-Specification-Title: tickkeepr
-Implementation-Timestamp: 2026-09-22T02:30:48+0200
-Specification-Version: 1
-Implementation-Vendor: Alter
-
