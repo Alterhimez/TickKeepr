@@ -13,8 +13,6 @@ Both are built for Forge 1.16.5 and are intended for modded packs that want mach
 
 ## Downloads
 
-Replace the placeholder links below with your final hosted JAR URLs later.
-
 - [Download TickKeepr 1.0.1 JAR](https://github.com/Alterhimez/TickKeepr/releases/download/p-1.0.1/tickkeepr-1.0.1.jar)
 - [Download TickKeepr Bottle 1.0.1 JAR](https://github.com/Alterhimez/TickKeepr/releases/download/p-1.0.1/tickkeeperbottle-1.0.1.jar)
 
@@ -26,5 +24,9 @@ Replace the placeholder links below with your final hosted JAR URLs later.
 ## Notes
 
 See each mod's README in its project folder for implementation details, config options, and build instructions.
+
+## Authors
+
+Alterhimez - https://github.com/Alterhimez
 
 Coauthored by Claude, gemma4 and qwen3.8
