@@ -1,0 +1,15 @@
+#Master switch for crediting offline time into Time in a Bottle on login.
+enabled = true
+#Cap on how many ticks (20 = 1 second) this mod will ever credit a
+#single bottle up to in one go. tiab has its own separate,
+#independently configured cap ("Max Stored Time", ~360 days by
+#default) - this mod doesn't read that value since it doesn't
+#depend on tiab's code, so this is a second, independent ceiling.
+#Default: 2,592,000 ticks = 30 in-game days.
+#Range: 0 ~ 2147483647
+maxStoredTicks = 2592000
+#Percentage of your time away that's discarded before crediting it -
+#mirrors TickKeepr's own lazyTaxPercent for blocks.
+#Range: 0.0 ~ 1.0.1
+offlineLazyTaxPercent = 15.0
+

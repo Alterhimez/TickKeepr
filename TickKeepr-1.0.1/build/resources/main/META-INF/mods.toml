@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+modId="tickkeeper"
+version="1.0.1"
+displayName="TickKeepr"
+authors="Alter"
+description='''Simulates offline and unloaded-chunk progress for tickable machines - vanilla and modded alike - so furnaces, smelteries, sluices and anything else that ticks keeps making progress while you're away.'''
+
+[[dependencies.tickkeeper]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tickkeeper]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,31 @@
+#Master switch for catch-up simulation.
+enabled = true
+#Hard cap on how many game ticks (20 = 1 second) a single block
+#will ever be fast-forwarded by, no matter how long it was
+#actually unloaded/offline for. Keeps a multi-day absence from
+#freezing/stalling the server for everyone when the world loads.
+#Default: 1,728,000 ticks = 24 in-game hours.
+#Range: > 0
+maxCatchUpTicks = 1728000
+#Percentage of the calculated catch-up time to discard before
+#simulating, so machines never come back at a suspiciously exact
+#100% real-time accuracy. 15 means only 85% of the elapsed real
+#time actually gets simulated.
+#Range: 0.0 ~ 1.0.1
+lazyTaxPercent = 15.0
+#Ignore gaps shorter than this many ticks (20 = 1 second) - not worth the overhead.
+#Range: > 0
+minTicksToSimulate = 20
+#How many total simulated ticks TickKeepr will run per real
+#server tick, spread across every block currently catching up.
+#Higher = machines finish catching up faster after you load in,
+#but risks a brief stutter if a lot of blocks need it at once.
+#Lower = smoother, but machines take visibly longer to catch up.
+#Range: > 100
+serverTickBudget = 20000
+#Block entity registry names (e.g. "minecraft:hopper") that should
+#never be fast-forwarded, in case some specific machine misbehaves
+#when ticked rapidly with no player/world interaction in between.
+#Empty by default.
+blockEntityBlacklist = []
+
